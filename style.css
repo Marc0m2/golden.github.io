@@ -1,0 +1,132 @@
+@import url(https://fonts.googleapis.com/css?family=Bilbo+Swash+Caps:regular);
+@import url(https://fonts.googleapis.com/css?family=Montserrat:100,200,300,regular,500,600,700,800,900,100italic,200italic,300italic,italic,500italic,600italic,700italic,800italic,900italic);
+@import url(https://fonts.googleapis.com/css?family=Roboto+Slab:100,200,300,regular,500,600,700,800,900);
+
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family:  "montserrat"; 
+}
+
+header {
+    margin-top: 41.5px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin: 0;
+}
+
+header .logo a {
+    font-family: "Bilbo swash caps";
+    color: #FED136;
+    font-size: 36px;
+    text-decoration: none;
+}
+
+header nav ul li {
+    display: inline-block;
+    font-size: 14px;
+    margin: 0 20px;
+}
+
+header nav ul li a {
+    text-decoration: none;
+    color: #FED136;
+    text-transform: uppercase;
+}
+
+.white1 {
+    width: 934px;
+    height: 330px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+}
+
+main h1.services {
+    text-align: center;
+    margin-bottom: 60px;
+    text-transform: uppercase;
+}
+
+.white1 .card {
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+main .card img {
+    width: 70px;
+}
+
+main .card p {
+    color: #777777;
+    font-family: "robo slab";
+    margin: 0;
+    text-align: center;
+    font-size: 14px;
+}
+
+.black1 {
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #222222;
+    height: 500px;
+}
+
+.black1 h1 {
+    color: #fff;
+    text-transform: uppercase;
+    margin: auto;
+}
+
+.black1 .block1 {
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.black1 .block1 input {
+    margin: 14px 0;
+    width: 457px;
+    height: 37.5px;
+    text-transform: uppercase;
+    width: 400px;
+}
+
+.black1 form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.black1 form input.block2 {
+    margin-left: 30px;
+    height: 180px;
+    text-transform: uppercase;
+    width: 400px;
+}
+
+.black1 input {
+    border-radius: 4px;
+    font-size: 10px;
+}
+
+.black1 button {
+    font-family: "montserrat";
+    text-transform: uppercase;
+    padding: 10px 20px;
+    background-color: #FED136;
+    color: #fff;
+    border: 0;
+    border-radius: 1px;
+    margin-top: 10px;
+    margin-bottom: 60px;
+}
